@@ -9,11 +9,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/questionTV"
-        android:text="Pi is equal to 3"
+        android:text="@string/q1text"
         android:textSize="30dp"/>
 
         <LinearLayout android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center">
 
@@ -22,7 +22,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="true"
+            android:text="@string/trueText"
             android:id="@+id/trueBTN"/>
 
 
@@ -30,11 +30,19 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="false"
+                android:text="@string/falseText"
                 android:id="@+id/falseBTN"/>
 
 
 
         </LinearLayout>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="next"
+    android:id="@+id/nextbutton"
+    />
+
 
 </LinearLayout>
