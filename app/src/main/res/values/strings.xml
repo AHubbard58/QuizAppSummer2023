@@ -4,4 +4,6 @@
     <string name="trueText">true</string>
     <string name="falseText">false</string>
     <string name="CorrectMSG">You are corect</string>
+    <string name="yellowButton">Yellow</string>
+    <string name="blueButton">Blue</string>
 </resources>
